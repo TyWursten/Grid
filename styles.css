@@ -1,0 +1,28 @@
+
+.grid-container {
+  display: grid;
+  border-style: dotted;
+    width: 60%;
+    padding: auto;
+  grid-template-columns: auto auto auto auto;
+  grid-template-rows: auto auto auto;
+  column-gap: auto;
+  row-gap:auto;
+}
+
+.grid-item {
+    border-style: solid;
+    height: 30px;
+   
+    width: 30px;
+    
+
+   
+  }
+  .grid-item1{
+      border-style: groove;
+    grid-column: 1 / span 3;
+    grid-row: 1 / span 3;
+      height: 90%;
+      width: 80%;
+  }
