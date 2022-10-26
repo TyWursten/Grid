@@ -1,10 +1,30 @@
 
+.grid-container1 {
+  display: grid;
+  border-style: dotted;
+    width: 30%;
+    padding: auto;
+  grid-template-columns: auto auto;
+  grid-template-rows: auto auto auto auto auto;
+  column-gap: auto;
+  row-gap:auto;
+}
 .grid-container {
   display: grid;
   border-style: dotted;
     width: 60%;
     padding: auto;
   grid-template-columns: auto auto auto auto;
+  grid-template-rows: auto auto auto;
+  column-gap: auto;
+  row-gap:auto;
+}
+.grid-container2 {
+  display: grid;
+  border-style: dotted;
+    width: 30%;
+    padding: auto;
+  grid-template-columns: auto auto auto;
   grid-template-rows: auto auto auto;
   column-gap: auto;
   row-gap:auto;
@@ -26,3 +46,12 @@
       height: 90%;
       width: 80%;
   }
+
+  .grid-item2{
+    border-style: groove;
+  grid-column: 1 / span 3;
+  grid-row: 1 / span 3;
+    height: 90%;
+    width: 80%;
+}
+  
